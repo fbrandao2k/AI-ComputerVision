@@ -17,9 +17,9 @@ def tile_image_and_save(image, base_name, output_dir, tile_size=1024):
 
 # Define paths
 #uploaded_image_path = "D:/AI-ComputerVision/Damages/Crack/PonteJacunda/Drones/01_Zenmuse/DJI_202311301117_002_UgCS-JacundaT60/DJI_20231130112414_0100.JPG"
-uploaded_image_folder = "D:/AI-ComputerVision/Damages/Crack/PonteJacunda/Drones/01_Zenmuse/DJI_202312011513_013_original"
+uploaded_image_folder = "D:/AI-ComputerVision/Damages/Crack/PonteJacunda/Drones/01_Zenmuse/DJI_202312011528_014_original"
 #resized_output_path = "D:/AI-ComputerVision/Damages/Crack/PonteJacunda/Drones/01_Zenmuse/DJI_202311301117_002_UgCS-JacundaT60_resized/DJI_20231130112414_0100_resized.JPG"
-tiled_output_folder = Path("D:/AI-ComputerVision/Damages/Crack/PonteJacunda/Drones/01_Zenmuse/DJI_202312011513_013_tiled1024")
+tiled_output_folder = Path("D:/AI-ComputerVision/Damages/Crack/PonteJacunda/Drones/01_Zenmuse/DJI_202312011528_014_tiled1024")
 tiled_output_folder.mkdir(parents=True, exist_ok=True)
 
 # Get all image files in the uploaded_image_folder
